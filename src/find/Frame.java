@@ -32,7 +32,7 @@ public class Frame extends JFrame{
         regionField = new JTextField(10);
 
         jButton = new JButton();
-        jTextArea = new JTextArea(10,10);
+        jTextArea = new JTextArea(14,30);
 
         jButton.setText("Search!");
         this.getRootPane().setDefaultButton(jButton);
@@ -63,9 +63,9 @@ public class Frame extends JFrame{
 
         c.gridx = 0;
         c.gridy++;
-        c.gridwidth = 4;
-        c.gridheight = 4;
-        c.fill = GridBagConstraints.BOTH;
+        c.gridwidth = 20;
+        c.gridheight = 10;
+        //c.fill = GridBagConstraints.BOTH;
         jPanel.add(jTextArea,c);
 
         this.add(jPanel);

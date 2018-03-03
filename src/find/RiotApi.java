@@ -13,7 +13,7 @@ import java.net.URL;
  * Created by Florin on 1/6/2017.
  */
 public class RiotApi {
-    private final String key = "RGAPI-5c3ec4d8-8042-432b-86a1-dcf1b3f369e6";
+    private final String key = "API_KEY";
     private String region;
     private final String website;
     private URL url = null;
